@@ -1,38 +1,25 @@
-# Core dependencies
-python-dotenv==1.0.1
+# Core ML + Utils
+python=3.11.14
 numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.5.0
-matplotlib==3.9.0
-seaborn==0.13.2
-
-# NLP & Deep Learning
-torch==2.2.2
-transformers==4.41.2
-datasets==2.19.0
-tokenizers==0.19.1
-sentencepiece==0.2.0
-
-# TweetEval Dataset
-tweeteval==0.1.2   # optional if you directly use Hugging Face datasets
-
-# For model saving/loading
 joblib==1.4.2
-pickle5==0.0.12
 
-# Streamlit App
-streamlit==1.38.0
-streamlit-option-menu==0.3.12
+# TensorFlow (for LSTM + GRU)
+tensorflow==2.16.1
 
-# Utilities
-tqdm==4.66.4
-requests==2.32.3
-regex==2024.5.15
-pathlib==1.0.1
+# PyTorch (required for BERT)
+torch==2.2.2
+torchaudio==2.2.2
+torchvision==0.17.2
 
-# For TensorBoard / logging
-tensorboard==2.17.0
+# Transformers + HuggingFace datasets (BERT)
+transformers==4.40.2
+datasets==2.19.1
+tokenizers==0.19.1
 
-# Optional - if using Jupyter notebooks
-notebook==7.2.1
-ipykernel==6.29.4
+# Streamlit app
+streamlit==1.33.0
+
+# Optional utilities (recommended)
+matplotlib==3.8.4
