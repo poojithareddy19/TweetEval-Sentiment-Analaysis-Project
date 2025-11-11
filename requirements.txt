@@ -1,25 +1,12 @@
-# Core ML + Utils
-python=3.11.14
-numpy==1.26.4
-pandas==2.2.2
-scikit-learn==1.5.0
-joblib==1.4.2
+datasets
+transformers>=4.0.0
+torch
+tensorflow
+scikit-learn
+pandas
+numpy
+streamlit
+joblib
+sentencepiece
+evaluate
 
-# TensorFlow (for LSTM + GRU)
-tensorflow==2.16.1
-
-# PyTorch (required for BERT)
-torch==2.2.2
-torchaudio==2.2.2
-torchvision==0.17.2
-
-# Transformers + HuggingFace datasets (BERT)
-transformers==4.40.2
-datasets==2.19.1
-tokenizers==0.19.1
-
-# Streamlit app
-streamlit==1.33.0
-
-# Optional utilities (recommended)
-matplotlib==3.8.4
